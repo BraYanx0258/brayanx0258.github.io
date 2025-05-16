@@ -40,6 +40,13 @@ body {
   width: 100%;
 }
 
+/* Hacer que todas las imágenes sean 100% responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Utilidades */
 .container {
   width: 100%;
@@ -1871,4 +1878,12 @@ body {
 
 #entrenamiento .btn {
   margin-top: 1.5rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius); /* Si necesitas bordes redondeados */
+  box-shadow: var(--shadow-lg); /* Si necesitas sombra */
 }
