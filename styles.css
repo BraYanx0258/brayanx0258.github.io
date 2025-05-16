@@ -408,6 +408,7 @@ body {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
 }
 
 .hero-title {
@@ -723,7 +724,7 @@ body {
 }
 
 .section-padding {
-  padding: 5rem 0;
+  padding: 2rem 0;
   position: relative;
   min-height: 100vh;
   display: flex;
@@ -957,7 +958,7 @@ body {
 .pricing-features {
   list-style: none;
   margin-bottom: 1.5rem;
-  space-y: 0.5rem;
+  -ms-text-kashida-space: 0.5rem;
 }
 
 .pricing-features li {
@@ -1280,6 +1281,32 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
+}
+
+/* Ajustes para la sección de mapas */
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: var(--radius);
+}
+
+@media (min-width: 768px) {
+  .map-container iframe {
+    height: 450px;
+  }
+}
+
+#ubicacion .map-container {
+  border: 3px solid var(--primary);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+#ubicacion iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
 }
 
 .contact-form-container {
@@ -1774,4 +1801,74 @@ body {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
   }
+}
+
+#pagos {
+  background: linear-gradient(to right, var(--primary-light), var(--secondary-light));
+  color: white;
+  padding: 3rem 1.5rem;
+  border-radius: var(--radius);
+}
+
+#pagos .btn {
+  margin-top: 1rem;
+}
+
+/* Estilo para la sección de entrenamiento */
+#entrenamiento {
+  padding: 3rem 1.5rem;
+  background: linear-gradient(to bottom, var(--neutral-light), var(--background));
+  border-radius: var(--radius);
+}
+
+#entrenamiento .entrenamiento-header {
+  margin-bottom: 2rem;
+}
+
+#entrenamiento .entrenamiento-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* Reducido el espacio entre columnas */
+}
+
+@media (min-width: 768px) {
+  #entrenamiento .entrenamiento-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#entrenamiento .entrenamiento-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#entrenamiento .entrenamiento-list li {
+  margin-bottom: 0.75rem; /* Reducido de 1rem a 0.75rem */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#entrenamiento .entrenamiento-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#entrenamiento .responsive-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
+#entrenamiento .entrenamiento-content {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
+#entrenamiento .btn {
+  margin-top: 1.5rem;
 }

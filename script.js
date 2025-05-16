@@ -191,4 +191,14 @@ document.addEventListener('DOMContentLoaded', function() {
   handleScreenSizeChanges();
   
   initAnimations();
+
+  // Botón de WhatsApp
+  document.querySelectorAll('.whatsapp-btn').forEach(button => {
+    button.addEventListener('click', function() {
+      const message = this.getAttribute('data-message');
+      const phoneNumber = '573123973657'; // Número de WhatsApp de Lina
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    });
+  });
 });
