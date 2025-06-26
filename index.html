@@ -113,7 +113,7 @@
 
         <div class="flex-1 hero-image-container fade-in" style="animation-delay: 0.2s;">
           <div class="gradient-overlay"></div>
-          <img src="https://placehold.co/500x500" alt="Gimnasio Lina García" class="hero-image">
+          <img src="foto-grupal.jpg" alt="Gimnasio Lina García" class="hero-image">
 
           <!-- Decoración minimalista -->
           <div class="hero-decoration">
@@ -153,31 +153,50 @@
     <!-- Training Section -->
     <section id="entrenamiento" class="section-padding bg-light">
       <div class="container">
-        <div class="entrenamiento-header text-center">
-          <h2 class="section-title gradient-text">Lina García Entrenamiento</h2>
-          <p class="section-description">
-            Descubre nuestro enfoque único para transformar tu cuerpo y mente. Nuestro método combina funcionalidad, personalización y resultados visibles.
-          </p>
+      <div class="entrenamiento-header text-center">
+        <h2 class="section-title gradient-text" style="font-size:2.8rem; font-weight:800; letter-spacing:-1px; margin-bottom:0.5em;">
+        Lina García Entrenamiento
+        </h2>
+        <p class="section-description" style="font-size:1.5rem; font-weight:500; color:#444; margin-bottom:2em;">
+        Descubre nuestro <span style="color:#83DBD1; font-weight:700;">enfoque único</span> para transformar tu cuerpo y mente.<br>
+        Nuestro método combina <span style="color:#94A5ED; font-weight:700;">funcionalidad</span>, <span style="color:#C4CBFF; font-weight:700;">personalización</span> y <span style="color:#83DBD1; font-weight:700;">resultados visibles</span>.
+        </p>
+      </div>
+
+      <div class="entrenamiento-content grid-2" style="align-items:center;">
+        <div class="entrenamiento-text">
+        <ul class="entrenamiento-list" style="font-size:1.25rem; line-height:2; margin-bottom:2em; color:#222;">
+          <li style="margin-bottom:0.7em;">
+          <span style="font-size:1.5em; color:#83DBD1; vertical-align:middle;">✅</span>
+          <strong>Entrenamiento funcional:</strong> Trabaja los músculos conjuntamente, simulando movimientos comunes.
+          </li>
+          <li style="margin-bottom:0.7em;">
+          <span style="font-size:1.5em; color:#83DBD1; vertical-align:middle;">✅</span>
+          <strong>Clases semipersonalizadas:</strong> Por horas, que comienzan a la hora en punto.
+          </li>
+          <li style="margin-bottom:0.7em;">
+          <span style="font-size:1.5em; color:#83DBD1; vertical-align:middle;">✅</span>
+          <strong>Adaptaciones personalizadas:</strong> Según las necesidades de cada persona.
+          </li>
+          <li>
+          <span style="font-size:1.5em; color:#83DBD1; vertical-align:middle;">✅</span>
+          <strong>Enfoque en recomposición corporal:</strong> Pérdida de grasa y ganancia de masa muscular.
+          </li>
+        </ul>
+        <p class="mt-4" style="font-size:1.3rem; color:#555; font-weight:500; margin-bottom:2em;">
+          <span style="background:linear-gradient(90deg,#83DBD1,#94A5ED,#C4CBFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:700;">
+          ¡Clase de cortesía para nuevos miembros!
+          </span>
+          <br>
+          Avísanos qué día te gustaría venir y <span style="color:#83DBD1; font-weight:700;">agenda tu clase gratuita</span> 🩵
+        </p>
+        <button class="btn btn-primary whatsapp-btn mt-4" data-message="Hola, me gustaría agendar mi clase gratuita de prueba;" style="font-size:1.25rem; padding:1em 2.5em; font-weight:700; letter-spacing:1px;">
+          Agendar Clase Gratis
+        </button>
         </div>
 
-        <div class="entrenamiento-content grid-2">
-          <div class="entrenamiento-text">
-            <ul class="entrenamiento-list">
-              <li>✅ Ofrecemos un entrenamiento de tipo funcional que trabaja los músculos conjuntamente, simulando movimientos comunes.</li>
-              <li>✅ Clases semipersonalizadas, por horas, que comienzan a la hora en punto.</li>
-              <li>✅ Adaptaciones personalizadas según las necesidades de cada persona.</li>
-              <li>✅ Enfoque en recomposición corporal: pérdida de grasa y ganancia de masa muscular.</li>
-            </ul>
-            <p class="mt-4">
-              Si eres nuevo o nueva, tienes derecho a una clase de cortesía para probar nuestro método. ¡Avísanos qué día te gustaría venir y agendamos tu clase gratuita! 🩵
-            </p>
-            <button class="btn btn-primary whatsapp-btn mt-4" data-message="Hola, me gustaría agendar mi clase gratuita de prueba.">
-              Agendar Clase Gratis
-            </button>
-          </div>
-
           <div class="entrenamiento-image">
-            <img src="https://placehold.co/500x400" alt="Entrenamiento funcional" class="responsive-image">
+            <img src="3-entrenadores.png" alt="Entrenamiento funcional" class="responsive-image">
           </div>
         </div>
       </div>
@@ -387,38 +406,67 @@
     </section>
 
     <!-- Trainers Section -->
-    <section id="entrenadores" class="section-padding">
+    <!-- Sección de Entrenadores Individuales -->
+    <section id="entrenadores" class="section-padding bg-light">
       <div class="container text-center">
-        <h2 class="section-title">Nuestros Entrenadores</h2>
-        <div class="trainers-grid">
-          <div class="trainer-card">
-            <div class="trainer-image-container">
-              <img src="https://placehold.co/300x400" alt="Lina" class="trainer-image">
+        <h2 class="section-title gradient-text">Nuestros Entrenadores</h2>
+        <div class="trainers-grid" style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+          <!-- Lina -->
+          <div class="trainer-card" style="background: #fff; border-radius: 1.5rem; box-shadow: 0 6px 32px rgba(131,219,209,0.10); padding: 2.5rem 2rem; width: 340px; transition: transform 0.2s;">
+            <div class="trainer-image-container" style="width: 180px; height: 180px; margin: 0 auto 1.5rem;">
+              <img src="lina.png" alt="Lina" class="trainer-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; border: 5px solid #83DBD1;">
             </div>
             <div class="trainer-content">
-              <h3 class="trainer-name">Lina</h3>
-              <p class="trainer-description">---</p>
+              <h3 class="trainer-name" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Lina</h3>
+              <p class="trainer-description" style="color: #555; font-size: 1.1rem;">
+                Profesional en ciencias del deporte y recreación. Apasionada por ayudarte a lograr tu mejor versión.
+              </p>
             </div>
           </div>
-          <div class="trainer-card">
-            <div class="trainer-image-container">
-              <img src="https://placehold.co/300x400" alt="María" class="trainer-image">
+          <!-- María -->
+          <div class="trainer-card" style="background: #fff; border-radius: 1.5rem; box-shadow: 0 6px 32px rgba(131,219,209,0.10); padding: 2.5rem 2rem; width: 340px; transition: transform 0.2s;">
+            <div class="trainer-image-container" style="width: 180px; height: 180px; margin: 0 auto 1.5rem;">
+              <img src="maria.png" alt="María Arias" class="trainer-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; border: 5px solid #83DBD1;">
             </div>
             <div class="trainer-content">
-              <h3 class="trainer-name">María</h3>
-              <p class="trainer-description">---</p>
+              <h3 class="trainer-name" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">María Arias</h3>
+              <p class="trainer-description" style="color: #555; font-size: 1.1rem;">
+                Estudiante de actividad física. Siempre lista para motivarte y acompañarte en cada entrenamiento.
+              </p>
             </div>
           </div>
-          <div class="trainer-card">
-            <div class="trainer-image-container">
-              <img src="https://placehold.co/300x400" alt="Nicolás" class="trainer-image">
+          <!-- Nicolás -->
+          <div class="trainer-card" style="background: #fff; border-radius: 1.5rem; box-shadow: 0 6px 32px rgba(131,219,209,0.10); padding: 2.5rem 2rem; width: 340px; transition: transform 0.2s;">
+            <div class="trainer-image-container" style="width: 180px; height: 180px; margin: 0 auto 1.5rem;">
+              <img src="nicolas.png" alt="Nicolás Santana" class="trainer-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; border: 5px solid #83DBD1;">
             </div>
             <div class="trainer-content">
-              <h3 class="trainer-name">Nicolás</h3>
-              <p class="trainer-description">---</p>
+              <h3 class="trainer-name" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">Nicolás</h3>
+              <p class="trainer-description" style="color: #555; font-size: 1.1rem;">
+                Profesional en ciencias del deporte y recreación. Estudiante de fisioterapia. Enfocado en tu bienestar integral.
+              </p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Sección Conoce el Equipo (foto grupal y frase) -->
+    <section class="section-padding bg-gradient-light">
+      <div class="container text-center">
+        <h2 class="section-title" style="font-size:2.2rem; font-weight:800; margin-bottom:0.5em;">
+          Conoce el equipo que te impulsa a dar lo mejor de ti
+          <span style="color:#83DBD1; font-size:1.5em; vertical-align:middle;">&#128153;</span>
+        </h2>
+        <div style="display:flex; justify-content:center; align-items:center; margin-bottom:2em;">
+          <div style="width:380px; max-width:100%; margin:0 auto;">
+            <!-- Reemplaza 'foto-grupal-entrenadores.jpg' por la foto real de los 3 entrenadores juntos -->
+            <img src="3-entrenadores.png" alt="Entrenadores Lina García" style="width:100%; border-radius:1.25rem; box-shadow:0 4px 24px rgba(131,219,209,0.15); object-fit:cover;">
+          </div>
+        </div>
+        <blockquote style="font-size:1.3rem; color:#333; font-style:italic; max-width:600px; margin:0 auto;">
+          "Juntos te acompañamos a superar tus límites, a creer en ti y a disfrutar cada paso del proceso. ¡El poder está en ti!"
+        </blockquote>
       </div>
     </section>
 
