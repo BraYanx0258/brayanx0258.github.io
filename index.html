@@ -123,24 +123,96 @@
         </div>
       </div>
 
-      <!-- Estadísticas -->
+      <!-- Programas de entrenamiento -->
       <div class="container mt-16">
-        <div class="stats-grid">
-          <div class="stat-card">
-            <h3 class="stat-number gradient-text">1500+</h3>
-            <p class="stat-label">Miembros activos</p>
+        <div class="programs-grid-custom">
+          <div class="program-card-custom presencial">
+            <div class="program-icon">
+              <svg width="48" height="48" fill="none" stroke="#83DBD1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            </div>
+            <h3 class="program-title-custom">Programas Presenciales</h3>
+            <p class="program-description-custom">Entrena en nuestro gimnasio con acceso a clases grupales, asesoría personalizada y acompañamiento de entrenadores expertos.</p>
           </div>
-          <div class="stat-card">
-            <h3 class="stat-number gradient-text-alt">25+</h3>
-            <p class="stat-label">Entrenadores expertos</p>
+          <div class="program-card-custom virtual">
+            <div class="program-icon">
+              <svg width="48" height="48" fill="none" stroke="#94A5ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="4"/><path d="M8 12h8"/></svg>
+            </div>
+            <h3 class="program-title-custom">Programas Virtuales</h3>
+            <p class="program-description-custom">Sigue rutinas y planes de entrenamiento desde casa, con seguimiento online y acceso a recursos exclusivos.</p>
           </div>
-          <div class="stat-card">
-            <h3 class="stat-number gradient-text-alt2">50+</h3>
-            <p class="stat-label">Clases semanales</p>
+          <div class="program-card-custom personalizado">
+            <div class="program-icon">
+              <svg width="48" height="48" fill="none" stroke="#C4CBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v2"/></svg>
+            </div>
+            <h3 class="program-title-custom">Programas Personalizados</h3>
+            <p class="program-description-custom">Recibe un plan de entrenamiento y nutrición adaptado a tus objetivos, necesidades y nivel, con seguimiento individual.</p>
           </div>
         </div>
       </div>
-    </section>
+      <style>
+      .programs-grid-custom {
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+      }
+      .program-card-custom {
+        background: #fff;
+        border-radius: 1.5rem;
+        box-shadow: 0 6px 32px rgba(131,219,209,0.10), 0 1.5px 8px rgba(148,165,237,0.07);
+        padding: 2.5rem 2rem 2rem 2rem;
+        width: 340px;
+        min-height: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.18s, box-shadow 0.18s;
+        position: relative;
+        overflow: hidden;
+        border-top: 5px solid #83DBD1;
+      }
+      .program-card-custom.presencial { border-top-color: #83DBD1; }
+      .program-card-custom.virtual { border-top-color: #94A5ED; }
+      .program-card-custom.personalizado { border-top-color: #C4CBFF; }
+      .program-card-custom:hover {
+        transform: translateY(-8px) scale(1.03);
+        box-shadow: 0 12px 40px rgba(131,219,209,0.18), 0 2px 12px rgba(148,165,237,0.10);
+      }
+      .program-icon {
+        margin-bottom: 1.2rem;
+        background: linear-gradient(120deg, #83DBD1 30%, #94A5ED 70%, #C4CBFF 100%);
+        border-radius: 50%;
+        padding: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 12px rgba(131,219,209,0.10);
+      }
+      .program-title-custom {
+        font-size: 1.35rem;
+        font-weight: 700;
+        color: #222;
+        margin-bottom: 0.7rem;
+        letter-spacing: -0.5px;
+        text-align: center;
+      }
+      .program-description-custom {
+        color: #555;
+        font-size: 1.08rem;
+        text-align: center;
+        line-height: 1.7;
+        margin-bottom: 0;
+      }
+      @media (max-width: 1100px) {
+        .programs-grid-custom { gap: 1.5rem; }
+        .program-card-custom { width: 95%; min-width: 260px; }
+      }
+      @media (max-width: 800px) {
+        .programs-grid-custom { flex-direction: column; align-items: center; }
+        .program-card-custom { width: 100%; }
+      }
+      </style>
 
           <div class="service-card">
             <h3 class="card-title">Asesoramiento Nutricional</h3>
