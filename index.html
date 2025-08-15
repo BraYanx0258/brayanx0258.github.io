@@ -4,12 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lina García | Gimnasio y Bienestar</title>
+<link rel="icon" href="icon-removebg-preview.png" type="image/png">
 <meta name="description" content="El poder está en ti. Transforma tu cuerpo y mente con nuestros programas personalizados de entrenamiento y bienestar.">
 <link rel="stylesheet" href="styles.css">
 <!-- Fuente Inter de Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <div class="flex-col min-h-screen overflow-hidden bg-gradient">
@@ -19,14 +21,7 @@
       <div class="nav-container">
         <!-- Logo -->
         <a href="#inicio" class="logo-container">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
-            <path d="M6.5 6.5h11"></path>
-            <path d="M6.5 17.5h11"></path>
-            <path d="M6 12h4"></path>
-            <path d="M14 12h4"></path>
-            <path d="M5 6.5v11"></path>
-            <path d="M19 6.5v11"></path>
-          </svg>
+          <img src="icon.png" alt="Lina García Logo" class="logo-icon" style="width: 30px; height: 25px;">
           <span class="logo-text">Lina García</span>
         </a>
 
@@ -49,10 +44,7 @@
               <span>Planes</span>
               <span class="nav-indicator"></span>
             </a>
-            <a href="#entrenadores" class="nav-link" data-section="entrenadores">
-              <span>Entrenadores</span>
-              <span class="nav-indicator"></span>
-            </a>
+            
             <a href="#productos" class="nav-link" data-section="productos">
               <span>Productos</span>
               <span class="nav-indicator"></span>
@@ -75,28 +67,12 @@
     </div>
 
     <!-- Mobile Navigation -->
-    <div class="mobile-nav" id="mobileNav">
-      <div class="mobile-nav-content">
-        <a href="#inicio" class="mobile-nav-link" data-section="inicio">Inicio</a>
-        <a href="#servicios" class="mobile-nav-link" data-section="servicios">Servicios</a>
-        <a href="#entrenamiento" class="mobile-nav-link" data-section="entrenamiento">Entrenamiento</a>
-        <a href="#planes" class="mobile-nav-link" data-section="planes">Planes</a>
-        <a href="#entrenadores" class="mobile-nav-link" data-section="entrenadores">Entrenadores</a>
-        <a href="#productos" class="mobile-nav-link" data-section="productos">Productos</a>
-        <a href="#testimonios" class="mobile-nav-link" data-section="testimonios">Testimonios</a>
-        <a href="#ubicacion" class="mobile-nav-link" data-section="ubicacion">Ubicación</a>
-        <a href="#contacto" class="btn btn-primary mobile-cta">Contactar</a>
-      </div>
-    </div>
-
-    <!-- Menú móvil -->
     <div id="mobileMenu" class="mobile-menu">
       <div class="container">
         <a href="#inicio" class="mobile-nav-link" data-section="inicio">Inicio</a>
         <a href="#servicios" class="mobile-nav-link" data-section="servicios">Servicios</a>
         <a href="#entrenamiento" class="mobile-nav-link" data-section="entrenamiento">Entrenamiento</a>
         <a href="#planes" class="mobile-nav-link" data-section="planes">Planes</a>
-        <a href="#entrenadores" class="mobile-nav-link" data-section="entrenadores">Entrenadores</a>
         <a href="#productos" class="mobile-nav-link" data-section="productos">Productos</a>
         <a href="#testimonios" class="mobile-nav-link" data-section="testimonios">Testimonios</a>
         <a href="#ubicacion" class="mobile-nav-link" data-section="ubicacion">Ubicación</a>
@@ -257,36 +233,64 @@
           </p>
         </div>
 
-        <div class="grid-2">
-          <div class="entrenamiento-text">
-            <ul class="entrenamiento-list">
-              <li>
-                <strong>Entrenamiento funcional:</strong> Trabaja los músculos conjuntamente, simulando movimientos comunes.
-              </li>
-              <li>
-                <strong>Clases semipersonalizadas:</strong> Por horas, que comienzan a la hora en punto.
-              </li>
-              <li>
-                <strong>Adaptaciones personalizadas:</strong> Según las necesidades de cada persona.
-              </li>
-              <li>
-                <strong>Enfoque en recomposición corporal:</strong> Pérdida de grasa y ganancia de masa muscular.
-              </li>
-            </ul>
-            <p class="mt-8" style="font-size: 1.2rem; color: var(--neutral-600); font-weight: 500;">
-              <span class="gradient-text" style="font-weight: 700;">
-                ¡Clase de cortesía para nuevos miembros!
-              </span>
-              <br>
-              Avísanos qué día te gustaría venir y <strong style="color: var(--primary);">agenda tu clase gratuita</strong> 💙
-            </p>
-            <button class="btn btn-primary mt-4 whatsapp-btn" data-message="Hola, me gustaría agendar mi clase gratuita de prueba.">
-              Agendar Clase Gratis
-            </button>
+        <div class="entrenamiento-container">
+          <div class="entrenamiento-content">
+            <h3 class="entrenamiento-title">Nuestro Entrenamiento</h3>
+            
+                                 <div class="entrenamiento-features">
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">fitness_center</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Entrenamiento funcional</strong>
+                           <p>Trabaja los músculos conjuntamente, simulando movimientos comunes.</p>
+                         </div>
+                       </div>
+                       
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">schedule</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Clases semipersonalizadas</strong>
+                           <p>Por horas, que comienzan a la hora en punto.</p>
+                         </div>
+                       </div>
+                       
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">person</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Adaptaciones personalizadas</strong>
+                           <p>Según las necesidades de cada persona.</p>
+                         </div>
+                       </div>
+                       
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">local_fire_department</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Enfoque en recomposición corporal</strong>
+                           <p>Pérdida de grasa y ganancia de masa muscular.</p>
+                         </div>
+                       </div>
+                     </div>
+            
+            <div class="entrenamiento-cta">
+              <p class="cta-description">
+                Avísanos qué día te gustaría venir y <strong>agenda tu clase gratuita</strong> 💙
+              </p>
+              <button class="btn btn-primary whatsapp-btn" data-message="Hola, me gustaría agendar mi clase gratuita de prueba.">
+                Agendar Clase Gratis
+              </button>
+            </div>
           </div>
-
+          
           <div class="entrenamiento-image">
-            <img src="3-entrenadores.png" alt="Entrenamiento funcional" class="responsive-image" style="border-radius: var(--radius-2xl); box-shadow: var(--shadow-xl);">
+            <img src="3-entrenadores.png" alt="Entrenamiento funcional" class="responsive-image">
           </div>
         </div>
       </div>
@@ -689,17 +693,17 @@
         <div class="products-grid">
               <div class="product-card">
                 <div class="product-image-container">
-                  <img src="/placeholder.svg?height=200&width=300&text=Proteína+Premium" alt="Proteína Premium Whey" class="product-image">
+                  <img src="producto_1.jpg" alt="Creatina Iron" class="product-image">
                 </div>
                 <div class="product-content">
-                  <h3 class="product-name">Proteína Premium Whey</h3>
-                  <p class="product-description">Proteína de suero de leche de alta calidad, 25g de proteína por porción. Sabor chocolate.</p>
+                  <h3 class="product-name">Creatina Iron</h3>
+                  <p class="product-description">Creatina monohidratada de alta pureza para aumentar la fuerza y masa muscular. Ideal para deportistas y culturistas.</p>
                   <div class="product-details">
-                    <span class="product-price">$120.000</span>
+                    <span class="product-price">$130.000</span>
                   </div>
                 </div>
                 <div class="product-footer">
-                  <a href="https://wa.me/573123456789?text=Hola%2C%20me%20interesa%20la%20Proteína%20Premium%20Whey%20de%20%24120.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/573123973657?text=Hola%2C%20me%20interesa%20la%20Creatina%20Iron%20de%20%24130.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
                       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.963-.94 1.16-.173.199-.347.221-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.795-1.484-1.784-1.66-2.087-.173-.297-.018-.458.13-.606.136-.133.296-.347.445-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.508-.172-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.345m-5.446 6.443h-.015c-1.77 0-3.524-.48-5.055-1.38l-.361-.214-3.741.982.998-3.648-.235-.375a9.44 9.44 0 0 1-1.45-5.026c0-5.221 4.25-9.469 9.473-9.469 2.533 0 4.914.984 6.704 2.768 1.789 1.78 2.775 4.15 2.774 6.667 0 5.223-4.251 9.475-9.457 9.475M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.462 0 .103 5.36.101 11.943c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.365 11.949-11.947 0-3.176-1.24-6.163-3.48-8.403"/>
                     </svg>
@@ -710,17 +714,17 @@
 
               <div class="product-card">
                 <div class="product-image-container">
-                  <img src="/placeholder.svg?height=200&width=300&text=Guantes+Entrenamiento" alt="Guantes de entrenamiento" class="product-image">
+                  <img src="producto_2.jpg" alt="Gold Standard" class="product-image">
                 </div>
                 <div class="product-content">
-                  <h3 class="product-name">Guantes de entrenamiento</h3>
-                  <p class="product-description">Guantes ergonómicos con soporte para muñeca y agarre antideslizante.</p>
+                  <h3 class="product-name">Gold Standard</h3>
+                  <p class="product-description">Proteína de suero de leche premium con 24g de proteína por porción. Sabor vanilla ice cream, ideal para recuperación muscular.</p>
                   <div class="product-details">
-                    <span class="product-price">$45.000</span>
+                    <span class="product-price">$219.000</span>
                   </div>
                 </div>
                 <div class="product-footer">
-                  <a href="https://wa.me/573123456789?text=Hola%2C%20me%20interesan%20los%20Guantes%20de%20entrenamiento%20de%20%2445.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/573123973657?text=Hola%2C%20me%20interesa%20el%20Gold%20Standard%20de%20%24219.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
                       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.963-.94 1.16-.173.199-.347.221-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.795-1.484-1.784-1.66-2.087-.173-.297-.018-.458.13-.606.136-.133.296-.347.445-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.508-.172-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.345m-5.446 6.443h-.015c-1.77 0-3.524-.48-5.055-1.38l-.361-.214-3.741.982.998-3.648-.235-.375a9.44 9.44 0 0 1-1.45-5.026c0-5.221 4.25-9.469 9.473-9.469 2.533 0 4.914.984 6.704 2.768 1.789 1.78 2.775 4.15 2.774 6.667 0 5.223-4.251 9.475-9.457 9.475M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.462 0 .103 5.36.101 11.943c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.365 11.949-11.947 0-3.176-1.24-6.163-3.48-8.403"/>
                     </svg>
@@ -731,17 +735,17 @@
 
               <div class="product-card">
                 <div class="product-image-container">
-                  <img src="/placeholder.svg?height=200&width=300&text=BCAA+Energy" alt="BCAA Energy" class="product-image">
+                  <img src="producto_3.jpg" alt="Toallas" class="product-image">
                 </div>
                 <div class="product-content">
-                  <h3 class="product-name">BCAA Energy</h3>
-                  <p class="product-description">Aminoácidos ramificados con cafeína natural para mayor energía durante el entrenamiento.</p>
+                  <h3 class="product-name">Toallas</h3>
+                  <p class="product-description">Toallas de alta calidad para el gimnasio, perfectas para tu entrenamiento diario. Absorbentes y suaves al tacto.</p>
                   <div class="product-details">
-                    <span class="product-price">$85.000</span>
+                    <span class="product-price">$18.000</span>
                   </div>
                 </div>
                 <div class="product-footer">
-                  <a href="https://wa.me/573123456789?text=Hola%2C%20me%20interesa%20el%20BCAA%20Energy%20de%20%2485.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/573123973657?text=Hola%2C%20me%20interesan%20las%20Toallas%20de%20%2418.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
                       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.963-.94 1.16-.173.199-.347.221-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.795-1.484-1.784-1.66-2.087-.173-.297-.018-.458.13-.606.136-.133.296-.347.445-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.508-.172-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.345m-5.446 6.443h-.015c-1.77 0-3.524-.48-5.055-1.38l-.361-.214-3.741.982.998-3.648-.235-.375a9.44 9.44 0 0 1-1.45-5.026c0-5.221 4.25-9.469 9.473-9.469 2.533 0 4.914.984 6.704 2.768 1.789 1.78 2.775 4.15 2.774 6.667 0 5.223-4.251 9.475-9.457 9.475M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.462 0 .103 5.36.101 11.943c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.365 11.949-11.947 0-3.176-1.24-6.163-3.48-8.403"/>
                     </svg>
@@ -918,15 +922,7 @@
           </div>
         </div>
 
-        <div class="text-center mt-12">
-          <button class="btn btn-primary whatsapp-btn" data-message="Hola, me gustaría conocer todos los productos que ofrecen en el gimnasio.">
-            Ver todos los productos
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </button>
-        </div>
+        
       </div>
     </section>
 
@@ -985,21 +981,16 @@
             Tu gimnasio de confianza para alcanzar tus metas de fitness y bienestar.
           </p>
           <div class="footer-social">
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com/linagarcial_?igsh=ZzdxaXFwYXQ2dXU4" class="social-link" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
               </svg>
             </a>
-            <a href="#" class="social-link">
+            <a href="https://www.facebook.com/linagarciaentrenamiento" class="social-link" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-              </svg>
-            </a>
-            <a href="#" class="social-link">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
               </svg>
             </a>
           </div>
@@ -1010,10 +1001,9 @@
           <ul class="footer-menu">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#entrenamiento">Entrenamiento</a></li>
-            <li><a href="#planes">Planes</a></li>
-            <li><a href="#entrenadores">Entrenadores</a></li>
-            <li><a href="#productos">Productos</a></li>
+                    <li><a href="#entrenamiento">Entrenamiento</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#productos">Productos</a></li>
             <li><a href="#testimonios">Testimonios</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
           </ul>
@@ -1028,30 +1018,30 @@
           </ul>
         </div>
 
-        <div class="footer-contact">
-          <h3 class="footer-title">Contacto</h3>
-          <ul class="footer-contact-info">
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-              </svg>
-              +57 312 397 3657
-            </li>
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-              </svg>
-              <a href="https://wa.me/573123973657" class="whatsapp-link">WhatsApp</a>
-            </li>
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-              Monserrate, Cl. 12 A #7-39, Santa Rosa de Cabal, Risaralda.
-            </li>
-          </ul>
-        </div>
+                 <div class="footer-contact">
+           <h3 class="footer-title">Contacto</h3>
+           <ul class="footer-contact-info">
+             <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+               </svg>
+               <a href="tel:+573123973657" class="phone-link">+57 312 397 3657</a>
+             </li>
+             <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+               </svg>
+               <a href="https://wa.me/573123973657" class="whatsapp-link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+             </li>
+             <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                 <circle cx="12" cy="10" r="3"></circle>
+               </svg>
+               <a href="https://maps.google.com/?q=Monserrate,+Cl.+12+A+%237-39,+Santa+Rosa+de+Cabal,+Risaralda" class="location-link" target="_blank" rel="noopener noreferrer">Monserrate, Cl. 12 A #7-39, Santa Rosa de Cabal, Risaralda.</a>
+             </li>
+           </ul>
+         </div>
       </div>
 
       <div class="footer-bottom">
