@@ -52,27 +52,15 @@ const Plans = () => {
                             </div>
                             <ul className="pricing-features">
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Acceso ilimitado todos los días
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Horarios establecidos
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Evaluación física mensual
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Asesoría nutricional básica
                                 </li>
                             </ul>
@@ -98,21 +86,12 @@ const Plans = () => {
                             <p className="text-sm text-gray-500 mb-2 italic">($100.000 por persona)</p>
                             <ul className="pricing-features">
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Para entrenar juntos
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Deben pagar el mismo día
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Asistir juntos
                                 </li>
                             </ul>
@@ -137,15 +116,9 @@ const Plans = () => {
                             </div>
                             <ul className="pricing-features">
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     12 clases al mes
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Evaluación física mensual
                                 </li>
                             </ul>
@@ -170,15 +143,9 @@ const Plans = () => {
                             </div>
                             <ul className="pricing-features">
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FF6B6B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     8 clases al mes
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FF6B6B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Ideal para mantenimiento
                                 </li>
                             </ul>
@@ -206,15 +173,9 @@ const Plans = () => {
                             </div>
                             <ul className="pricing-features">
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     15 días de entrenamiento
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Acceso continuo
                                 </li>
                             </ul>
@@ -239,15 +200,9 @@ const Plans = () => {
                             </div>
                             <ul className="pricing-features">
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Acceso a una clase específica
                                 </li>
                                 <li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
                                     Sin compromiso de membresía
                                 </li>
                             </ul>
