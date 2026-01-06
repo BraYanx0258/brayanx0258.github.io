@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lina García | Gimnasio y Bienestar</title>
+<link rel="icon" href="icon-removebg-preview.png" type="image/png">
+<meta name="description" content="El poder está en ti. Transforma tu cuerpo y mente con nuestros programas personalizados de entrenamiento y bienestar.">
+<link rel="stylesheet" href="styles.css">
+<!-- Fuente Inter de Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="flex-col min-h-screen overflow-hidden bg-gradient">
+  <!-- Header -->
+  <header class="sticky-header">
+    <div class="container">
+      <div class="nav-container">
+        <!-- Logo -->
+        <a href="#inicio" class="logo-container">
+          <img src="icon.png" alt="Lina García Logo" class="logo-icon" style="width: 30px; height: 25px;">
+          <span class="logo-text">Lina García</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <div class="nav-links">
+            <a href="#inicio" class="nav-link" data-section="inicio">
+              <span>Inicio</span>
+              <span class="nav-indicator"></span>
+            </a>
+            <a href="#servicios" class="nav-link" data-section="servicios">
+              <span>Servicios</span>
+              <span class="nav-indicator"></span>
+            </a>
+            <a href="#entrenamiento" class="nav-link" data-section="entrenamiento">
+              <span>Entrenamiento</span>
+              <span class="nav-indicator"></span>
+            </a>
+            <a href="#planes" class="nav-link" data-section="planes">
+              <span>Planes</span>
+              <span class="nav-indicator"></span>
+            </a>
+            
+            <a href="#productos" class="nav-link" data-section="productos">
+              <span>Productos</span>
+              <span class="nav-indicator"></span>
+            </a>
+          </div>
+          <a href="#contacto" class="btn btn-primary nav-cta">
+            <span>Contacto</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+              <path d="M22 2L11 13"></path>
+              <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+            </svg>
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button id="menuToggle" class="mobile-menu-button" aria-label="Toggle menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobileMenu" class="mobile-menu">
+      <div class="container">
+        <a href="#inicio" class="mobile-nav-link" data-section="inicio">Inicio</a>
+        <a href="#servicios" class="mobile-nav-link" data-section="servicios">Servicios</a>
+        <a href="#entrenamiento" class="mobile-nav-link" data-section="entrenamiento">Entrenamiento</a>
+        <a href="#planes" class="mobile-nav-link" data-section="planes">Planes</a>
+        <a href="#productos" class="mobile-nav-link" data-section="productos">Productos</a>
+        <a href="#testimonios" class="mobile-nav-link" data-section="testimonios">Testimonios</a>
+        <a href="#ubicacion" class="mobile-nav-link" data-section="ubicacion">Ubicación</a>
+        
+        <div class="mobile-menu-footer">
+          <button class="btn btn-primary btn-full whatsapp-btn" data-message="Hola, me gustaría obtener más información sobre el gimnasio Lina García.">Empezar ahora</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+      <div class="hero-background">
+        <div class="bg-gradient-overlay"></div>
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+        <div class="bg-blob blob-3"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge-container">
+            <span class="badge badge-secondary">Tu mejor versión</span>
+          </div>
+
+          <h1 class="hero-title">
+            Descubre tu potencial en
+            <span class="gradient-text">Lina García</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            <span class="subtitle-text">
+              "El poder está en ti"
+              <span class="underline-gradient"></span>
+            </span>
+          </p>
+
+          <p class="hero-description">
+            Transforma tu cuerpo y mente con nuestros programas personalizados de entrenamiento y bienestar.
+          </p>
+
+          <div class="hero-cta-container">
+            <button class="btn btn-primary whatsapp-btn" data-message="Hola, me gustaría conocer más sobre los planes de entrenamiento que ofrecen.">
+              Conoce nuestros planes
+            </button>
+            <button class="btn btn-outline whatsapp-btn" data-message="Hola, me gustaría agendar una visita para conocer el gimnasio y tomar la clase gratuita de prueba.">
+              Agendar visita
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="gradient-overlay"></div>
+          <img src="foto-grupal.jpg" alt="Gimnasio Lina García" class="hero-image">
+          <div class="hero-decoration">
+            <div class="decoration-corner top-right"></div>
+            <div class="decoration-corner bottom-left"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center mb-16">
+          <span class="badge badge-primary">Nuestros Servicios</span>
+          <h2 class="section-title">Todo lo que necesitas para tu bienestar</h2>
+          <p class="section-description">
+            Ofrecemos una amplia gama de servicios diseñados para ayudarte a alcanzar tus objetivos de fitness y salud.
+          </p>
+        </div>
+        
+        <div class="programs-grid">
+          <!-- Entrenamiento Funcional -->
+          <div class="program-card fade-in" style="--accent-color: #00B4A0; --accent-light: rgba(0, 180, 160, 0.1);">
+            <div class="program-card-inner">
+              <div class="program-icon">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 2v20M2 12h20"/>
+                  <path d="m19 19-7-7 7-7M5 5l7 7-7 7"/>
+                </svg>
+              </div>
+              <h3 class="program-title">Entrenamiento Funcional</h3>
+              <p class="program-description">Ejercicios que simulan movimientos de la vida diaria, mejorando tu fuerza, equilibrio y coordinación.</p>
+              <ul class="program-features">
+                <li class="feature">Movimientos naturales</li>
+                <li class="feature">Mejora la postura</li>
+                <li class="feature">Previene lesiones</li>
+                <li class="feature">Resultados rápidos</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Clases Grupales -->
+          <div class="program-card fade-in" style="--accent-color: #6C63FF; --accent-light: rgba(108, 99, 255, 0.1);" data-delay="0.2s">
+            <div class="program-card-inner">
+              <div class="program-icon">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <h3 class="program-title">Clases Grupales</h3>
+              <p class="program-description">Entrena en grupo con la motivación y energía que necesitas para superar tus límites.</p>
+              <ul class="program-features">
+                <li class="feature">Ambiente motivador</li>
+                <li class="feature">Horarios flexibles</li>
+                <li class="feature">Diferentes intensidades</li>
+                <li class="feature">Comunidad activa</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Asesoramiento Nutricional -->
+          <div class="program-card fade-in" style="--accent-color: #FF6B6B; --accent-light: rgba(255, 107, 107, 0.1);" data-delay="0.4s">
+            <div class="program-card-inner">
+              <div class="program-icon">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/>
+                  <path d="M8 12h8M12 8v8"/>
+                </svg>
+              </div>
+              <h3 class="program-title">Asesoramiento Nutricional</h3>
+              <p class="program-description">Complementa tu entrenamiento con una alimentación adecuada y personalizada para tus objetivos.</p>
+              <ul class="program-features">
+                <li class="feature">Planes personalizados</li>
+                <li class="feature">Seguimiento continuo</li>
+                <li class="feature">Educación nutricional</li>
+                <li class="feature">Resultados sostenibles</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="entrenamiento" class="section-padding bg-gradient-light">
+      <div class="bg-blobs">
+        <div class="bg-blob blob-4"></div>
+        <div class="bg-blob blob-5"></div>
+      </div>
+
+      <div class="container">
+        <div class="text-center mb-16">
+          <span class="badge badge-secondary">Metodología</span>
+          <h2 class="section-title gradient-text">Lina García Entrenamiento</h2>
+          <p class="section-description">
+            Descubre nuestro <strong>enfoque único</strong> para transformar tu cuerpo y mente.<br>
+            Nuestro método combina <strong>funcionalidad</strong>, <strong>personalización</strong> y <strong>resultados visibles</strong>.
+          </p>
+        </div>
+
+        <div class="entrenamiento-container">
+          <div class="entrenamiento-content">
+            <h3 class="entrenamiento-title">Nuestro Entrenamiento</h3>
+            
+                                 <div class="entrenamiento-features">
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">fitness_center</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Entrenamiento funcional</strong>
+                           <p>Trabaja los músculos conjuntamente, simulando movimientos comunes.</p>
+                         </div>
+                       </div>
+                       
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">schedule</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Clases semipersonalizadas</strong>
+                           <p>Por horas, que comienzan a la hora en punto.</p>
+                         </div>
+                       </div>
+                       
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">person</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Adaptaciones personalizadas</strong>
+                           <p>Según las necesidades de cada persona.</p>
+                         </div>
+                       </div>
+                       
+                       <div class="feature-item">
+                         <div class="feature-icon">
+                           <span class="material-icons">local_fire_department</span>
+                         </div>
+                         <div class="feature-text">
+                           <strong>Enfoque en recomposición corporal</strong>
+                           <p>Pérdida de grasa y ganancia de masa muscular.</p>
+                         </div>
+                       </div>
+                     </div>
+            
+            <div class="entrenamiento-cta">
+              <p class="cta-description">
+                Avísanos qué día te gustaría venir y <strong>agenda tu clase gratuita</strong> 💙
+              </p>
+              <button class="btn btn-primary whatsapp-btn" data-message="Hola, me gustaría agendar mi clase gratuita de prueba.">
+                Agendar Clase Gratis
+              </button>
+            </div>
+          </div>
+          
+          <div class="entrenamiento-image">
+            <img src="3-entrenadores.png" alt="Entrenamiento funcional" class="responsive-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center mb-16">
+          <span class="badge badge-primary">Nuestros Programas</span>
+          <h2 class="section-title">Transforma tu cuerpo y mente</h2>
+          <p class="section-description">
+            Descubre nuestros programas diseñados para ayudarte a alcanzar tus metas de fitness y bienestar, sin importar tu nivel de experiencia.
+          </p>
+        </div>
+        
+        <div class="programs-grid">
+          <!-- Programa Presencial -->
+          <div class="program-card fade-in" style="--accent-color: #00B4A0; --accent-light: rgba(0, 180, 160, 0.1);">
+            <div class="program-card-inner">
+              <div class="program-icon">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M3 9h18v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9zm0 0V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"/>
+                  <path d="M7 5v2h10V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2z"/>
+                  <path d="M12 12v4m-2-2h4"/>
+                </svg>
+              </div>
+              <h3 class="program-title">Entrenamiento Presencial</h3>
+              <p class="program-description">Entrena en nuestras instalaciones con equipos de última generación y el apoyo de entrenadores certificados. Incluye acceso ilimitado a clases grupales.</p>
+              <ul class="program-features">
+                <li class="feature">Acceso ilimitado al gimnasio</li>
+                <li class="feature">Clases grupales incluidas</li>
+                <li class="feature">Asesoramiento personalizado</li>
+                <li class="feature">Rutinas personalizadas</li>
+              </ul>
+              <button class="program-button whatsapp-btn" data-message="Hola, me interesa el programa de entrenamiento presencial. ¿Podrían darme más información?">
+                Más información
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"/>
+                  <path d="m12 5 7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Programa Virtual -->
+          <div class="program-card fade-in" style="--accent-color: #6C63FF; --accent-light: rgba(108, 99, 255, 0.1);" data-delay="0.2s">
+            <div class="program-card-inner">
+              <div class="program-icon">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
+                  <path d="m2 8 7.89 5.26a2 2 0 0 0 2.22 0L22 8"/>
+                  <path d="M10 15h4"/>
+                </svg>
+              </div>
+              <h3 class="program-title">Entrenamiento Virtual</h3>
+              <p class="program-description">Entrena desde la comodidad de tu hogar con nuestro programa virtual. Acceso a clases en vivo, rutinas personalizadas y seguimiento en línea.</p>
+              <ul class="program-features">
+                <li class="feature">Clases en vivo y grabadas</li>
+                <li class="feature">Seguimiento online</li>
+                <li class="feature">Comunidad virtual</li>
+                <li class="feature">Rutinas sin equipamiento</li>
+              </ul>
+              <button class="program-button whatsapp-btn" data-message="Hola, me interesa el programa de entrenamiento virtual. ¿Podrían darme más información?">
+                Más información
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"/>
+                  <path d="m12 5 7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Programa Personalizado -->
+          <div class="program-card fade-in" style="--accent-color: #FF6B6B; --accent-light: rgba(255, 107, 107, 0.1);" data-delay="0.4s">
+            <div class="program-card-inner">
+              <div class="program-icon">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/>
+                  <path d="M12 6v6l4 2"/>
+                  <path d="M12 16v1"/>
+                </svg>
+              </div>
+              <h3 class="program-title">Plan Personalizado</h3>
+              <p class="program-description">Un programa 100% personalizado según tus objetivos, horarios y necesidades. Incluye plan de alimentación y entrenamiento adaptado a ti.</p>
+              <ul class="program-features">
+                <li class="feature">Evaluación inicial completa</li>
+                <li class="feature">Plan de alimentación</li>
+                <li class="feature">Sesiones 1 a 1</li>
+                <li class="feature">Ajustes periódicos</li>
+              </ul>
+              <button class="program-button whatsapp-btn" data-message="Hola, me interesa el programa personalizado. ¿Podrían darme más información?">
+                Más información
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"/>
+                  <path d="m12 5 7 7-7 7"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="planes" class="section-padding bg-gradient-light">
+      <div class="bg-blobs">
+        <div class="bg-blob blob-4"></div>
+        <div class="bg-blob blob-5"></div>
+      </div>
+
+      <div class="container">
+        <div class="text-center mb-12">
+          <span class="badge badge-secondary">Membresías</span>
+          <h2 class="section-title">Planes de Membresía</h2>
+          <p class="section-description">
+            Elige el plan que mejor se adapte a tus necesidades y comienza tu transformación hoy mismo.
+          </p>
+        </div>
+
+        <!-- Free Trial Banner -->
+        <div class="free-trial-banner reveal-card">
+          <div class="free-trial-content">
+            <div class="free-trial-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="free-trial-title">¡PRIMERA CLASE GRATIS!</h3>
+              <p class="free-trial-text">Prueba nuestro método sin compromiso. Si te gusta, podrás acceder a cualquiera de nuestros planes.</p>
+            </div>
+          </div>
+          <button class="btn btn-light whatsapp-btn" data-message="Hola, me gustaría agendar mi clase gratuita de prueba.">Reservar clase gratis</button>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <div class="pricing-header pricing-header-1">
+              <h3 class="pricing-title">Plan Completo</h3>
+            </div>
+            <div class="pricing-content">
+              <div class="pricing-price">
+                <span class="price gradient-text-1">$105.000</span>
+                <span class="period">/mes</span>
+              </div>
+              <ul class="pricing-features">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Acceso ilimitado al gimnasio
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Todas las clases grupales
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Evaluación física mensual
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Asesoría nutricional básica
+                </li>
+              </ul>
+              <button class="btn btn-gradient-1 whatsapp-btn" data-message="Hola, me interesa el Plan Completo de $105.000/mes. Me gustaría obtener más información.">Seleccionar plan</button>
+            </div>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-header pricing-header-2">
+              <h3 class="pricing-title">3 Días por Semana</h3>
+            </div>
+            <div class="pricing-content">
+              <div class="pricing-price">
+                <span class="price gradient-text-2">$95.000</span>
+                <span class="period">/mes</span>
+              </div>
+              <ul class="pricing-features">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Acceso 3 días a la semana
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Clases grupales seleccionadas
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Evaluación física mensual
+                </li>
+              </ul>
+              <button class="btn btn-gradient-2 whatsapp-btn" data-message="Hola, me interesa el Plan de 3 Días por Semana de $95.000/mes. Me gustaría obtener más información.">Seleccionar plan</button>
+            </div>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-header pricing-header-3">
+              <h3 class="pricing-title">Plan Parejas</h3>
+            </div>
+            <div class="pricing-content">
+              <div class="pricing-price">
+                <span class="price gradient-text-3">$190.000</span>
+                <span class="period">/mes</span>
+              </div>
+              <ul class="pricing-features">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Acceso ilimitado para dos personas
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Todas las clases grupales
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Evaluación física mensual
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  1 sesión de entrenamiento en pareja
+                </li>
+              </ul>
+              <button class="btn btn-gradient-3 whatsapp-btn" data-message="Hola, me interesa el Plan Parejas de $190.000/mes. Me gustaría obtener más información.">Seleccionar plan</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-grid-2 mt-8">
+          <div class="pricing-card">
+            <div class="pricing-header pricing-header-4">
+              <h3 class="pricing-title">Plan Quincenal</h3>
+            </div>
+            <div class="pricing-content">
+              <div class="pricing-price">
+                <span class="price">$55.000</span>
+                <span class="period">/quincena</span>
+              </div>
+              <ul class="pricing-features">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Acceso ilimitado por 15 días
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Clases grupales incluidas
+                </li>
+              </ul>
+              <button class="btn btn-gradient-4 whatsapp-btn" data-message="Hola, me interesa el Plan Quincenal de $55.000. Me gustaría obtener más información.">Seleccionar plan</button>
+            </div>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-header pricing-header-4">
+              <h3 class="pricing-title">Clase Individual</h3>
+            </div>
+            <div class="pricing-content">
+              <div class="pricing-price">
+                <span class="price">$10.000</span>
+                <span class="period">/clase</span>
+              </div>
+              <ul class="pricing-features">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Acceso a una clase específica
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                  Sin compromiso de membresía
+                </li>
+              </ul>
+              <button class="btn btn-gradient-4 whatsapp-btn" data-message="Hola, me interesa la Clase Individual de $10.000. Me gustaría obtener más información.">Seleccionar plan</button>
+            </div>
+          </div>
+
+          <!-- María -->
+          <div class="trainer-card">
+            <div class="trainer-image-container">
+              <img src="maria.png" alt="María Arias" class="trainer-image">
+            </div>
+            <div class="trainer-content">
+              <h3 class="trainer-name">María Arias</h3>
+              <p class="trainer-description">
+                Estudiante de actividad física. Siempre lista para motivarte y acompañarte en cada entrenamiento.
+              </p>
+            </div>
+          </div>
+
+          <!-- Nicolás -->
+          <div class="trainer-card">
+            <div class="trainer-image-container">
+              <img src="nicolas.png" alt="Nicolás" class="trainer-image">
+            </div>
+            <div class="trainer-content">
+              <h3 class="trainer-name">Nicolás</h3>
+              <p class="trainer-description">
+                Profesional en ciencias del deporte y recreación. Estudiante de fisioterapia. Enfocado en tu bienestar integral.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Photo Section -->
+        <section class="team-section">
+          <div class="team-container">
+            <div class="team-header">
+              <h2 class="team-title">
+                Conoce el equipo que te impulsa a dar lo mejor de ti <span class="text-primary">💙</span>
+              </h2>
+            </div>
+            
+            <div class="team-image-container">
+              <img src="3-entrenadores.png" alt="Equipo de entrenadores Lina García" class="team-image">
+            </div>
+            
+            <div class="team-quote">
+              <p class="team-quote-text">
+                Juntos te acompañamos a superar tus límites, a creer en ti y a disfrutar cada paso del proceso.
+                <span class="team-quote-author">¡El poder está en ti!</span>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="section-padding bg-gradient-light">
+      <div class="container">
+        <div class="text-center mb-16">
+          <span class="badge badge-secondary">Testimonios</span>
+          <h2 class="section-title gradient-text">Lo que dicen nuestros clientes</h2>
+          <p class="section-description">
+            Historias reales de transformación y éxito de nuestra comunidad.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-text">"El método de Lina García cambió mi vida. Perdí peso y gané confianza en mí misma. Los entrenadores son increíbles y siempre me motivan a dar lo mejor."</p>
+            <h3 class="testimonial-name">- María López</h3>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-text">"Las clases son dinámicas y los entrenadores son muy profesionales. El ambiente es súper motivador. ¡Recomendado 100%!"</p>
+            <h3 class="testimonial-name">- Juan Pérez</h3>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-text">"Después de años sin hacer ejercicio, encontré en Lina García el lugar perfecto para retomar mi rutina. Las clases se adaptan a mi nivel y he visto resultados increíbles."</p>
+            <h3 class="testimonial-name">- Ana Rodríguez</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="section-padding bg-light">
+      <div class="bg-blobs">
+        <div class="bg-blob blob-8"></div>
+        <div class="bg-blob blob-9"></div>
+      </div>
+
+      <div class="container">
+        <div class="text-center mb-12">
+          <span class="badge badge-primary">Tienda</span>
+          <h2 class="section-title">Productos Destacados</h2>
+          <p class="section-description">
+            Descubre nuestra selección de productos de alta calidad para potenciar tu rendimiento y resultados.
+          </p>
+        </div>
+
+        <div class="products-grid">
+              <div class="product-card">
+                <div class="product-image-container">
+                  <img src="producto_1.jpg" alt="Creatina Iron" class="product-image">
+                </div>
+                <div class="product-content">
+                  <h3 class="product-name">Creatina Iron</h3>
+                  <p class="product-description">Creatina monohidratada de alta pureza para aumentar la fuerza y masa muscular. Ideal para deportistas y culturistas.</p>
+                  <div class="product-details">
+                    <span class="product-price">$130.000</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <a href="https://wa.me/573123973657?text=Hola%2C%20me%20interesa%20la%20Creatina%20Iron%20de%20%24130.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.963-.94 1.16-.173.199-.347.221-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.795-1.484-1.784-1.66-2.087-.173-.297-.018-.458.13-.606.136-.133.296-.347.445-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.508-.172-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.345m-5.446 6.443h-.015c-1.77 0-3.524-.48-5.055-1.38l-.361-.214-3.741.982.998-3.648-.235-.375a9.44 9.44 0 0 1-1.45-5.026c0-5.221 4.25-9.469 9.473-9.469 2.533 0 4.914.984 6.704 2.768 1.789 1.78 2.775 4.15 2.774 6.667 0 5.223-4.251 9.475-9.457 9.475M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.462 0 .103 5.36.101 11.943c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.365 11.949-11.947 0-3.176-1.24-6.163-3.48-8.403"/>
+                    </svg>
+                    Preguntar por WhatsApp
+                  </a>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-image-container">
+                  <img src="producto_2.jpg" alt="Gold Standard" class="product-image">
+                </div>
+                <div class="product-content">
+                  <h3 class="product-name">Gold Standard</h3>
+                  <p class="product-description">Proteína de suero de leche premium con 24g de proteína por porción. Sabor vanilla ice cream, ideal para recuperación muscular.</p>
+                  <div class="product-details">
+                    <span class="product-price">$219.000</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <a href="https://wa.me/573123973657?text=Hola%2C%20me%20interesa%20el%20Gold%20Standard%20de%20%24219.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.963-.94 1.16-.173.199-.347.221-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.795-1.484-1.784-1.66-2.087-.173-.297-.018-.458.13-.606.136-.133.296-.347.445-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.508-.172-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.345m-5.446 6.443h-.015c-1.77 0-3.524-.48-5.055-1.38l-.361-.214-3.741.982.998-3.648-.235-.375a9.44 9.44 0 0 1-1.45-5.026c0-5.221 4.25-9.469 9.473-9.469 2.533 0 4.914.984 6.704 2.768 1.789 1.78 2.775 4.15 2.774 6.667 0 5.223-4.251 9.475-9.457 9.475M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.462 0 .103 5.36.101 11.943c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.365 11.949-11.947 0-3.176-1.24-6.163-3.48-8.403"/>
+                    </svg>
+                    Preguntar por WhatsApp
+                  </a>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-image-container">
+                  <img src="producto_3.jpg" alt="Toallas" class="product-image">
+                </div>
+                <div class="product-content">
+                  <h3 class="product-name">Toallas</h3>
+                  <p class="product-description">Toallas de alta calidad para el gimnasio, perfectas para tu entrenamiento diario. Absorbentes y suaves al tacto.</p>
+                  <div class="product-details">
+                    <span class="product-price">$18.000</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <a href="https://wa.me/573123973657?text=Hola%2C%20me%20interesan%20las%20Toallas%20de%20%2418.000%20que%20vi%20en%20la%20página%20web.%20¿Podrías%20darme%20más%20información%3F" class="btn btn-primary btn-full whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.966-.273-.099-.471-.148-.67.15-.197.297-.767.963-.94 1.16-.173.199-.347.221-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.795-1.484-1.784-1.66-2.087-.173-.297-.018-.458.13-.606.136-.133.296-.347.445-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.508-.172-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.345m-5.446 6.443h-.015c-1.77 0-3.524-.48-5.055-1.38l-.361-.214-3.741.982.998-3.648-.235-.375a9.44 9.44 0 0 1-1.45-5.026c0-5.221 4.25-9.469 9.473-9.469 2.533 0 4.914.984 6.704 2.768 1.789 1.78 2.775 4.15 2.774 6.667 0 5.223-4.251 9.475-9.457 9.475M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.462 0 .103 5.36.101 11.943c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.447h.006c6.585 0 11.946-5.365 11.949-11.947 0-3.176-1.24-6.163-3.48-8.403"/>
+                    </svg>
+                    Preguntar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab-supplements">
+            <div class="products-grid">
+              <div class="product-card">
+                <div class="product-badge">Más vendido</div>
+                <div class="product-image-container">
+                  <img src="/placeholder.svg?height=200&width=300&text=Proteína+Premium" alt="Proteína Premium Whey" class="product-image">
+                </div>
+                <div class="product-content">
+                  <div class="product-rating">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <h3 class="product-name">Proteína Premium Whey</h3>
+                  <p class="product-description">Proteína de suero de leche de alta calidad, 25g de proteína por porción. Sabor chocolate.</p>
+                  <div class="product-details">
+                    <span class="product-price">$120.000</span>
+                    <span class="product-category">Suplementos</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <button class="btn btn-primary btn-full whatsapp-btn" data-message="Hola, me interesa comprar la Proteína Premium Whey de $120.000. ¿Cómo puedo adquirirla?">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                      <line x1="3" y1="6" x2="21" y2="6"></line>
+                      <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    Añadir al carrito
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-badge">Más vendido</div>
+                <div class="product-image-container">
+                  <img src="/placeholder.svg?height=200&width=300&text=BCAA+Energy" alt="BCAA Energy" class="product-image">
+                </div>
+                <div class="product-content">
+                  <div class="product-rating">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <h3 class="product-name">BCAA Energy</h3>
+                  <p class="product-description">Aminoácidos ramificados con cafeína natural para mayor energía durante el entrenamiento.</p>
+                  <div class="product-details">
+                    <span class="product-price">$85.000</span>
+                    <span class="product-category">Suplementos</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <button class="btn btn-primary btn-full whatsapp-btn" data-message="Hola, me interesa comprar el BCAA Energy de $85.000. ¿Cómo puedo adquirirlo?">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                      <line x1="3" y1="6" x2="21" y2="6"></line>
+                      <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    Añadir al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab-accessories">
+            <div class="products-grid">
+              <div class="product-card">
+                <div class="product-image-container">
+                  <img src="/placeholder.svg?height=200&width=300&text=Guantes+Entrenamiento" alt="Guantes de entrenamiento" class="product-image">
+                </div>
+                <div class="product-content">
+                  <div class="product-rating">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <h3 class="product-name">Guantes de entrenamiento</h3>
+                  <p class="product-description">Guantes ergonómicos con soporte para muñeca y agarre antideslizante.</p>
+                  <div class="product-details">
+                    <span class="product-price">$45.000</span>
+                    <span class="product-category">Accesorios</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <button class="btn btn-primary btn-full whatsapp-btn" data-message="Hola, me interesa comprar los Guantes de entrenamiento de $45.000. ¿Cómo puedo adquirirlos?">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                      <line x1="3" y1="6" x2="21" y2="6"></line>
+                      <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    Añadir al carrito
+                  </button>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-image-container">
+                  <img src="/placeholder.svg?height=200&width=300&text=Botella+Shaker" alt="Botella Shaker Pro" class="product-image">
+                </div>
+                <div class="product-content">
+                  <div class="product-rating">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#00B4A0" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <h3 class="product-name">Botella Shaker Pro</h3>
+                  <p class="product-description">Botella mezcladora de 600ml con filtro anti-grumos y compartimento para suplementos.</p>
+                  <div class="product-details">
+                    <span class="product-price">$35.000</span>
+                    <span class="product-category">Accesorios</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <button class="btn btn-primary btn-full whatsapp-btn" data-message="Hola, me interesa comprar la Botella Shaker Pro de $35.000. ¿Cómo puedo adquirirla?">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                      <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                      <line x1="3" y1="6" x2="21" y2="6"></line>
+                      <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    Añadir al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="ubicacion" class="section-padding bg-gradient-light">
+      <div class="container">
+        <div class="text-center mb-16">
+          <span class="badge badge-secondary">Ubicación</span>
+          <h2 class="section-title">Encuéntranos</h2>
+          <p class="section-description">
+            Visítanos en: <strong>Monserrate, Cl. 12 A #7-39, Santa Rosa de Cabal, Risaralda</strong>.
+          </p>
+        </div>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1747397346781!6m8!1m7!1sof1nDpzbwAAF12m0GpnS-w!2m2!1d4.867082590708701!2d-75.61511730861243!3f113.23600496843537!4f-1.6737971186871334!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container text-center">
+        <h2 class="cta-title">¿Listo para transformar tu vida?</h2>
+        <p class="cta-text">
+          Recuerda, "El poder está en ti". Únete a nuestra comunidad y comienza tu viaje hacia una vida más
+          saludable y plena.
+        </p>
+        <button class="btn btn-light whatsapp-btn" data-message="Hola, estoy interesado en comenzar mi transformación con ustedes. Me gustaría agendar mi clase gratuita de prueba.">Comienza hoy con tu clase GRATIS</button>
+
+        <!-- Decoración minimalista -->
+        <div class="cta-decoration">
+          <div class="decoration-corner top-left"></div>
+          <div class="decoration-corner bottom-right"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+              <path d="M6.5 6.5h11"></path>
+              <path d="M6.5 17.5h11"></path>
+              <path d="M6 12h4"></path>
+              <path d="M14 12h4"></path>
+              <path d="M5 6.5v11"></path>
+              <path d="M19 6.5v11"></path>
+            </svg>
+            <span class="logo-text">Lina García</span>
+          </div>
+          <p class="footer-description">
+            Tu gimnasio de confianza para alcanzar tus metas de fitness y bienestar.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/linagarcial_?igsh=ZzdxaXFwYXQ2dXU4" class="social-link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/linagarciaentrenamiento" class="social-link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3 class="footer-title">Enlaces rápidos</h3>
+          <ul class="footer-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#entrenamiento">Entrenamiento</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#productos">Productos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-hours">
+          <h3 class="footer-title">Horarios</h3>
+          <ul class="footer-schedule">
+            <li>Lunes - Viernes: 7:00 AM - 9:00 PM</li>
+            <li>Sábados: 8:00 AM - 6:00 PM</li>
+            <li>Domingos: Cerrado</li>
+          </ul>
+        </div>
+
+                 <div class="footer-contact">
+           <h3 class="footer-title">Contacto</h3>
+           <ul class="footer-contact-info">
+             <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00B4A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+               </svg>
+               <a href="tel:+573123973657" class="phone-link">+57 312 397 3657</a>
+             </li>
+             <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+               </svg>
+               <a href="https://wa.me/573123973657" class="whatsapp-link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+             </li>
+             <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                 <circle cx="12" cy="10" r="3"></circle>
+               </svg>
+               <a href="https://maps.google.com/?q=Monserrate,+Cl.+12+A+%237-39,+Santa+Rosa+de+Cabal,+Risaralda" class="location-link" target="_blank" rel="noopener noreferrer">Monserrate, Cl. 12 A #7-39, Santa Rosa de Cabal, Risaralda.</a>
+             </li>
+           </ul>
+         </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Gimnasio Lina García. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/573123973657" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+  </svg>
+</a>
+
+<script>
+// Mobile Menu Toggle
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+
+menuToggle.addEventListener('click', function() {
+  mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+  
+  // Animate hamburger
+  const hamburger = menuToggle.querySelector('.hamburger');
+  hamburger.classList.toggle('active');
+});
+
+// Close mobile menu when clicking on links
+document.querySelectorAll('.mobile-nav-link').forEach(link => {
+  link.addEventListener('click', function() {
+    mobileMenu.style.display = 'none';
+    const hamburger = menuToggle.querySelector('.hamburger');
+    hamburger.classList.remove('active');
+  });
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});
+
+// Active navigation highlighting
+window.addEventListener('scroll', function() {
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+  
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (scrollY >= (sectionTop - 200)) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+});
+
+// Product tabs functionality
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', function() {
+    const targetTab = this.getAttribute('data-tab');
+    
+    // Remove active class from all buttons and contents
+    document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+    
+    // Add active class to clicked button
+    this.classList.add('active');
+    
+    // Show corresponding content
+    if (targetTab === 'all') {
+      document.getElementById('tab-all').classList.add('active');
+    } else {
+      document.getElementById('tab-' + targetTab).classList.add('active');
+    }
+  });
+});
+
+// WhatsApp button functionality
+document.querySelectorAll('.whatsapp-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const message = this.getAttribute('data-message');
+    const phoneNumber = '573123973657';
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  });
+});
+
+// Intersection Observer for animations
+const observerOptions = {
+  threshold: 0.1,
+  rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver(function(entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, observerOptions);
+
+// Observe all fade-in elements
+document.querySelectorAll('.fade-in, .reveal-card').forEach(el => {
+  observer.observe(el);
+});
+
+// Header scroll effect
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('.sticky-header');
+  if (window.scrollY > 100) {
+    header.style.background = 'rgba(255, 255, 255, 0.98)';
+    header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+  } else {
+    header.style.background = 'rgba(255, 255, 255, 0.95)';
+    header.style.boxShadow = 'none';
+  }
+});
+</script>
+
+<!-- Navigation Script -->
+<script src="js/navigation.js"></script>
+</body>
+</html>
