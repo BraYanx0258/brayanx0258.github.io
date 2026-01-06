@@ -53,7 +53,7 @@ const Hero = () => {
 
                 <div className="hero-image-wrapper">
                     <div className="gradient-overlay"></div>
-                    <img src="/foto-grupal.jpg" alt="Gimnasio Lina García" className="hero-image" />
+                    <img src="/lina-garcia.jpg" alt="Lina García" className="hero-image" />
                     <div className="hero-decoration">
                         <div className="decoration-corner top-right"></div>
                         <div className="decoration-corner bottom-left"></div>

@@ -216,31 +216,8 @@ const Plans = () => {
                     </div>
 
                     {/* Team Members inside Cards (from original design) */}
-                    {/* Maria */}
-                    <div className="trainer-card">
-                        <div className="trainer-image-container">
-                            <img src="/maria.png" alt="María Arias" className="trainer-image" />
-                        </div>
-                        <div className="trainer-content">
-                            <h3 className="trainer-name">María Arias</h3>
-                            <p className="trainer-description">
-                                Estudiante de actividad física. Siempre lista para motivarte y acompañarte en cada entrenamiento.
-                            </p>
-                        </div>
-                    </div>
 
-                    {/* Nicolás */}
-                    <div className="trainer-card">
-                        <div className="trainer-image-container">
-                            <img src="/nicolas.png" alt="Nicolás" className="trainer-image" />
-                        </div>
-                        <div className="trainer-content">
-                            <h3 className="trainer-name">Nicolás</h3>
-                            <p className="trainer-description">
-                                Profesional en ciencias del deporte y recreación. Estudiante de fisioterapia. Enfocado en tu bienestar integral.
-                            </p>
-                        </div>
-                    </div>
+
                 </div>
 
                 {/* Team Section */}
